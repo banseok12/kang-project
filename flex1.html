@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script>
+    <style>
+        #wrap_box {
+            width:600px;
+            height:200px;
+            border:2px solid gray;
+
+            display:flex;
+            /* display:-moz-box;
+            display:-webkit-box;
+            display:-ms-flexbox;
+            display:-webkit-flex; */
+
+            flex-direction: row;
+
+            justify-content:flex-end;
+
+            
+        }
+
+        #sample1 {
+            background-color:yellow;
+            width:100px;
+
+        }
+
+        #sample2 {
+            background-color:green;
+            width:200px;
+
+        }
+
+        #sample3 {
+            background-color: cyan;
+            width:100px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="wrap_box">
+        <div id="sample1">1번 패널</div>
+        <div id="sample2">2번 패널</div>
+        <div id="sample3">3번 패널</div>
+
+    </div>
+</body>
+</html>
